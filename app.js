@@ -33,6 +33,6 @@ app.get('*', (req,res) => {
     res.send('404 | PAGE NOT FOUND');
 })
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log(`Server listening at localhost:${port}`);
 })
